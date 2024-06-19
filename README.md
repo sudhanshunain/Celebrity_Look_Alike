@@ -1,16 +1,29 @@
 # Celebrity_Look_Alike: Find Your Celebrity Lookalike!
 
-
 ## Overview
 
 **CelebMatch** is a deep learning-powered web application that takes a photo of a person and outputs an image of the celebrities(mainly bollywood) they resemble the most. Deployed on Streamlit, CelebMatch uses advanced facial recognition and neural networks to match your photo with a database of Bollywood celebrities.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Introduction
+
+The Celebrity Look Alike app uses a deep learning model to recognize faces and match them with celebrities from Bollywood. It provides a fun way for users to upload their photos and find their closest celebrity resemblance.
+ 
 ## Features
 
 - **Fast and Accurate**: Quickly analyze your photo and find the closest celebrity match.
 - **Wide Celebrity Database**: Contains data of numerous Bollywood celebrities.
 - **User-Friendly Interface**: Easy to use with a simple and intuitive design.
 - **Privacy-Focused**: Your photos are processed securely and not stored without your consent.
+- **StreamLit-WebApp**: The model has been deployed on the Streamlit platform for an interactive experience.
 
 ## How It Works
 
@@ -19,13 +32,12 @@
 3. **Matching**: The model compares the extracted features with the celebrity database.
 4. **Result**: Get the image and name of the Bollywood celebrity you resemble the most.
 
-## Technical Details
+## Technologies Used
 
 - **Model**: Uses Convolutional Neural Networks (CNNs) for facial feature extraction and matching.
-- **Framework**: Built using TensorFlow/Keras for the deep learning model.
+- **Framework**: Built using TensorFlow/Keras and OpenCv for the deep learning model.
 - **Deployment**: Deployed on Streamlit for an interactive web application.
 - **Database**: Includes a comprehensive dataset of Bollywood celebrity images.
-
 
 ## Contributing
 
